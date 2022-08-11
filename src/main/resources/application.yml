@@ -1,0 +1,20 @@
+server:
+  port: 8081
+  servlet:
+    encoding:
+      charset: UTF-8
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/people_fruit?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+
+fruit:
+  images:
+    path: C:\Users\ZhangDeshuai\Desktop\Project\people_fruit\people_fruit\images\
+
+swiper:
+  images:
+    path: C:\Users\ZhangDeshuai\Desktop\Project\people_fruit\people_fruit\images\swiper_images\
+
